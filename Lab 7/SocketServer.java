@@ -27,7 +27,7 @@ public class SocketServer{
                 String response = "Hello Client!";
                 out.println(response);
                 out.flush();
-                System.out.println("Send response to client: " + response);
+                System.out.println("Sent response to client: " + response);
 
                 //Close the connection 
                 clientSocket.close();

@@ -33,7 +33,7 @@ public class BufferOptionsDemo {
         ByteBuffer duplicateBuffer = originalBuffer.duplicate();
 
         System.out.println("Original buffer: " + originalBuffer);
-        System.out.println("Original buffer: " + duplicateBuffer);
+        System.out.println("Duplicate buffer: " + duplicateBuffer);
 
         //Slice the buffer
         duplicateBuffer.position(2);

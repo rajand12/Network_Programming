@@ -12,7 +12,7 @@ public class CookieHandlerExample {
             CookieHandler.setDefault(ckm);
 
             // Create a URL object for the desired page
-            URL url = new URL("https://www.oracle.com");
+            URL url = new URL("https://www.geeksforgeeks.org");
 
             // Open a connection to the URL
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();

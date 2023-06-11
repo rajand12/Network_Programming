@@ -21,7 +21,7 @@ public class SocketClient{
 
             //Read the server's response
             String response = in.readLine();
-            System.out.println("Received response from server: " + message);
+            System.out.println("Received response from server: " + response);
 
             //Close the connection
             clientSocket.close();

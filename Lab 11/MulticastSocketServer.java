@@ -26,7 +26,7 @@ public class MulticastSocketServer {
             //Send the packet repeatedly
             while(true){
                 multicastSocket.send(packet);
-                System.out.println("Send multicast message: " +message);
+                System.out.println("Sent multicast message: " +message);
                 Thread.sleep(1000);
 
             }
